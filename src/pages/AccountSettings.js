@@ -4,7 +4,7 @@ import { View, Text, StyleSheet, Button } from "react-native";
 export default function AccountSettings() {
   return (
     <View style={styles.container}>
-      <Text style={styles.text}>Account Settings</Text>
+      <Text style={styles.text}>Account Setting</Text>
       <Button title="Change Theme" onPress={() => {}} color="#447AC4" />
     </View>
   );
